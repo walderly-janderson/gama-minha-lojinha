@@ -1,0 +1,179 @@
+body
+{
+/* Comentarios */
+    background-color: #ffb3b3; /* comando para definir a cor de fundo da página */
+    font-family: cursive; /* comando para definir a fonte do corpo(body) da página */
+
+
+}
+
+#cabecalho /* Usa-se o # porque é um ID */
+{
+
+    background-color: orangered; /* comando para definir a cor de um ID do cabeçalho */
+    border: black 1px solid; /* comando para criar uma borda em volta da mensagem do cabeçalho */
+    border-radius: 80px; /* comando para criar uma borda arredondada em volta da mensagem do cabeçalho */
+    padding-left: 80px; /* comando para afastar a mensagem do cabeçalho para o lado direito deixando ela mais centralizada */
+    margin-bottom: 30px; /* comando para afastar a margem externa da mensagem do cabeçalho para baixo deixando o menu mais afastado */
+    box-shadow: black 5px 5px 30px; /* comando para gerar um efeito de sombra externa da mensagem do cabeçalho */ 
+     
+}
+
+#conteudo
+{
+
+background-color: white; /* Deixa toda a parte da div conteudo na cor branca, mas o corpo(body) ainda é cinza */
+margin-left: 5%; /* comando para afastar a margem do lado esquerdo da página da parte da div conteudo*/
+margin-right: 5%; /* comando para afastar a margem do lado direito da página da parte da div conteudo*/
+padding: 5%; /* comando para centralizar mais a página */
+}
+
+a
+{
+
+      color: blue; /* comando para deixar os links azul mesmo depois de serem visitados, a letra a é a referencia */
+      text-decoration: unset; /* comando para deixar os links sem o sublinhado, da uma aparencia de mais limpo */
+
+}
+#navbar
+{
+display: flex; /* comando para deixar os menus um ao lado do outro */
+justify-content: center; /* comando para deixar os menus ao centro da página, porém todos juntos */
+justify-content: space-between; /* comando para deixar os menus ao centro da página, porém todos separados */
+margin-bottom: 30px; /* comando para deixar a imagem central mais abaixo do menu */
+}
+
+#imgLoja
+{
+width: 100%; /* comando para deixar a imagem do tamanho 100% da tela */
+}
+
+#tituloDestaque
+{
+font-family: monospace;    
+display: flex;
+justify-content: center; /* comando para deixar o texto ao centro da página, porém todos juntos */
+text-shadow: blue 1px 1px 5px; /* efeito azul no texto  */
+}
+
+#produto
+{
+display: flex;
+justify-content: space-between;
+margin-top: 20px; 
+}
+
+.produtoDestaque /* Usa-se o . porque é uma classe */
+{
+    border: gray 1px solid; /* bordas em volta das três imagens imagens */
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: gray 3px 3px 8px; /* efeito de sombra nas três imagens */
+}
+
+.imgDestaque
+{
+    width: 50%;
+    margin-left: 25%; /* afasta a imagem do lado esquerdo deixando a mais centralizada */
+    margin-bottom: 15%; /* afasta a imagem da parte de baixo da descrição do produto*/
+}
+
+.imgDestaque1
+{
+    width: 40%;
+    margin-left: 25%; /* afasta a imagem do lado esquerdo deixando a mais centralizada */
+    margin-bottom: 15%; /* afasta a imagem da parte de baixo da descrição do produto*/
+}
+
+.imgDestaque2
+{
+    width: 30%;
+    margin-left: 25%; /* afasta a imagem do lado esquerdo deixando a mais centralizada */
+    margin-bottom: 15%; /* afasta a imagem da parte de baixo da descrição do produto*/
+}
+
+h3
+{
+text-align: center;
+font-size: 30px;
+}
+
+.descDestaque
+{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 40px; /* comando para afastar o texto do lado esquerdo da margem deixando centralizado */
+margin-right: 40px; /* comando para afastar o texto do lado direito da margem deixando centralizado */
+/* text-align: justify; */ /* comando para deixar o texto da forma justificado porém ficou feio */
+}
+
+#rodape
+{
+display: flex;
+justify-content: space-between;
+background-color: #e60000;
+margin-top: 5px; 
+}
+
+#redeSocial
+{
+margin-left: 20px;
+margin-top: 20px;
+color: white;
+font-family: cursive;
+padding-bottom: 50px;
+/*width: 100%; */
+}
+
+
+.rede
+{    
+margin-top: 20px;
+margin-bottom: 20px; 
+/* display: table;  comando pra ficar um abaixo do outro */
+} 
+#email
+{
+    margin-right: 50px;
+}
+
+#receba
+{
+    color: white;
+}
+
+input /* barra de input de email */
+{
+width: 100%;
+height: 40px;
+margin-bottom: 10px;
+}
+
+button /* botão abaixo da barra de email */
+{
+    background-color: black;
+    width: 70px;
+    height: 30px;
+    border: hotpink 3px solid;
+    color: hotpink;
+    font-size: 15px;
+    box-shadow: palevioletred 2px 2px 8px;
+}
+
+h1
+{
+    animation-name: mudacor;
+    animation-duration: 15s;
+    color: black;
+}
+
+@keyframes mudacor {
+    from{ color: red}
+    to {color: black}
+}
+
+
+
+
+
+
+
